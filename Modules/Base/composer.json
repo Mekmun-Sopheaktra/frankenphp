@@ -1,0 +1,32 @@
+{
+    "name": "modules/base",
+    "description": "Base module for the application",
+    "authors": [
+        {
+            "name": "Mekmun Sopheaktra",
+            "email": "mekmunsopheaktra@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Base\\": "app/",
+            "Modules\\Base\\Database\\Factories\\": "database/factories/",
+            "Modules\\Base\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Base\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+    }
+}
